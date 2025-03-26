@@ -1,11 +1,15 @@
-{
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "name": "Launch index.html",
-        "type": "chrome",
-        "request": "launch",
-        "file": "${workspaceFolder}/index.html"
-      }
-    ]
-  }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>hello world</h1>
+  </body>
+  <script>
+    const x = "hello world";
+    debugger;
+    console.log(x);
+  </script>
+</html>
